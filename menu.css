@@ -326,7 +326,7 @@ form input[type = submit]:hover{
    position: absolute;
    text-align: center;
    justify-content: center;
-   top:550%;
+   top:600%;
    height: 400px;
 }
 
