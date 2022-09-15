@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <form name="f1" method="post" onsubmit="return validatefun()">
+            <h2>contact us</h2>
+            <input type="text" id="name" name="Name" placeholder="Enter your name">
+            <input type="email" id="email" name="Email" placeholder="Email id">
+            <input type="number" id="phone" name="Phone no." placeholder="Phone no.">
+            <textarea id="message" rows="4" name="Message" placeholder="How can we help you"></textarea>
+            <button class="glow-on-hover" type="submit" name="submit" value="name">Submit</button>
+            <div class="wrapper">
+                <a href="index.html"><span>Back</span></a>
+              </div>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
